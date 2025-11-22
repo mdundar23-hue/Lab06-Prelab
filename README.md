@@ -61,15 +61,16 @@ list2 = [10, 20, 30, 40, 50]
 print(zigzag_merge(list1, list2)) # Expected Output: [1, 10, 2, 20, 3, 30, 40, 50]
 ```
 
-## Question 5: Longest Consecutive Subsequence
+## Question 5: Longest Consecutive Hidden Sequence
 
-Write a function `longest_consecutive_subsequence_len(list1)` that takes a list of integers and finds the length of the longest subsequence of consecutive numbers (not necessarily contiguous). Return 0 for empty lists. 
+Write a function `hidden_sequence_len(list1)` that takes a list of integers and finds the length of the longest 
+subset (not necessarily contiguous) of numbers which if they were sorted would form a consequtive sequence . Return 0 for empty lists.
 
 ### Example Usage:
 
 ```python
 list1 = [10, 4, 20, 1, 3, 2, 5]
-print(longest_consecutive_subsequence_len(list1)) # Expected Output: 5
+print(hidden_sequence_len(list1)) # Expected Output: 5
 # Explanation: The longest consecutive sequence is [1, 2, 3, 4, 5].
 ```
 
