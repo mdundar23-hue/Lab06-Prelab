@@ -1,4 +1,4 @@
-def longest_consecutive_subsequence_len(list1: list) -> int:
+def hidden_sequence_len(list1: list) -> int:
     """
     Finds the length of the longest subsequence of consecutive numbers.
 
