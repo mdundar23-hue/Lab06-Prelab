@@ -11,3 +11,20 @@ def zigzag_merge(list1: list, list2: list) -> list:
     """
 
     # TODO: Implement the function
+    result = []
+    i = 0
+    while i< len(list1) and i < len(list2):
+        result.append(list1[i])
+        result.append(list2[i])
+        i += 1
+
+    while i <len(list1):
+        result.append(list1[i])
+        i += 1
+
+    while i <len(list2):
+        result.append(list2[i])
+        i += 1
+    return result
+    
+

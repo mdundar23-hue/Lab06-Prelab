@@ -10,4 +10,11 @@ def list_rotate(list1: list, k: int) -> list:
         list: The rotated list.
     """
 
-    # TODO: Implement the function
+    if not list1 or len(list1) <=1:
+        return list1
+    n= len(list1)
+    k= k%n 
+    if k == 0 :
+        return list1
+    return list1[-k:] + list1[:-k]
+    

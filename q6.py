@@ -10,3 +10,5 @@ def element_frequency(list1: list) -> list:
     """
 
     # TODO: Implement the function
+    
+    
